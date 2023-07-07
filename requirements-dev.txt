@@ -1,0 +1,20 @@
+# for manage package
+poetry
+
+# for better log
+loguru
+
+# unit test
+pytest
+pytest-cov
+parameterized
+coverage
+
+# linter
+black
+isort
+flake8
+mypy
+
+# terminal enhancement
+rich 
