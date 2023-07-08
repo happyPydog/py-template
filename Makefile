@@ -16,3 +16,6 @@ test:
 install: check_poetry
 	poetry config virtualenvs.in-project true
 	poetry install
+
+typecheck:
+	poetry run mypy .
